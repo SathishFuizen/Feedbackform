@@ -40,7 +40,7 @@ const Feedback = (props: any) => {
 
   return (
     
-    <div className='rowMains'>
+    <div className='rowMains' >
       <div className="feedbackTitle">
       </div>
       <div className='button'>
@@ -49,9 +49,10 @@ const Feedback = (props: any) => {
       {
         fb && (
           <div className='form-container'>
-            <div className='data-container' id="myfrom">
+            <div className='data-container'>
               <textarea placeholder='Enter your Feedback' value={data} onChange={(e)=>setData(e.target.value)}></textarea>
               </div>
+              
             <div className="btnclose" onClick={()=>{setFb(false);setData("")}}><AiFillCloseCircle  size={20}/></div>
 
             
@@ -75,6 +76,9 @@ const Feedback = (props: any) => {
       </div>  
     </div>
   )
+
+
+  
 }
 
 export default Feedback

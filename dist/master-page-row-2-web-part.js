@@ -5216,7 +5216,7 @@ var Feedback = function (props) {
             react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("button", { className: 'btn', onClick: function () { return setFb(true); } }, "Please write your feedback "),
             react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null,
                 fb && (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: 'form-container' },
-                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: 'data-container', id: "myfrom" },
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: 'data-container' },
                         react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("textarea", { placeholder: 'Enter your Feedback', value: data, onChange: function (e) { return setData(e.target.value); } })),
                     react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: "btnclose", onClick: function () { setFb(false); setData(""); } },
                         react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_icons_ai__WEBPACK_IMPORTED_MODULE_5__["AiFillCloseCircle"], { size: 20 })),
@@ -8108,7 +8108,7 @@ __webpack_require__.r(__webpack_exports__);
 
 exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/@microsoft/spfx-heft-plugins/node_modules/css-loader/dist/runtime/api.js */ "Z+AG")(false);
 // Module
-exports.push([module.i, "textarea{margin:6px;resize:none;height:106px;width:98%;background-color:hsla(0,0%,100%,0);border:none;outline:0;padding:3px;overflow-y:hidden}.feedbackTitle{padding:3px 12px}.formDiv{position:relative;background-size:60%;background-repeat:no-repeat;background-position:50%}.submitBtn{position:absolute;bottom:-18px;right:17px;z-index:999}.submitBtn button{padding:3px;height:22px;margin:9px;border:none;cursor:pointer;border-radius:2px;font-size:12px;position:relative;bottom:20px;left:16px}.msgopen{display:-ms-flexbox;display:flex;color:green;transition:4ms;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;padding:5px;margin-bottom:30px;margin-top:-11px}.msgclose{transition:4ms}.btnDivHide,.msgclose{display:none}.btnDivShow{display:block}.rowMains{height:50px;margin:10px 0 0 0;border-radius:16px;background-color:#fff;width:256px;box-shadow:none}.btn{height:50px;width:90%;background:0 0;border:none}.form-container{display:block;position:fixed;bottom:117px;right:18%;z-index:9;width:20%;height:30%;border-radius:10px;background-color:#fff}.data-container{height:100%;border:none;margin:17px}.btnclose{position:absolute;bottom:150px;right:11px}.icon{size:20px;height:20px;width:20px;margin-right:10px}", ""]);
+exports.push([module.i, ".form-container{display:block;position:fixed;bottom:117px;right:18%;width:20%;height:30%;border-radius:20px;background-color:#fff;top:291px;margin:-3px}&__data-container{height:100%;border:block;margin:17px}", ""]);
 
 
 /***/ }),

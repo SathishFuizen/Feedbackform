@@ -89,20 +89,26 @@ textarea {
 }
 .form-container{
   display: block;
-  position: fixed;
+  position:fixed;
   bottom: 117px;
   right: 18%;
-  z-index: 9;
+  // z-index: 9;
   width: 20%;
   height: 30%;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: white;
+  top:291px;
+  margin:-3px;
+  
 
 }
 .data-container{
   height: 100%;
-  border: none;
-  margin: 17px
+  border: block;
+  margin: 17px;
+  
+
+  
 
 }
 .btnclose{
